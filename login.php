@@ -18,7 +18,7 @@ if(isset($_SESSION['login_id']))
 header("location:index.php?page=home");
 ?>
 <?php include 'header.php' ?>
-<body class="hold-transition login-page" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/background.jpg') no-repeat center center fixed; background-size: cover;">
+<body class="hold-transition login-page" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/background.JPG') no-repeat center center fixed; background-size: cover;">
 <div class="login-box">
   <div class="login-logo">
     <a href="#" class="text-white"><b><?php echo $_SESSION['system']['name'] ?> - Gusherlabs</b></a>
